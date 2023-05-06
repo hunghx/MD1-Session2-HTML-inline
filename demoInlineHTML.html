@@ -36,7 +36,7 @@
     <u>Rikkei Academy</u>
     <!-- thẻ nhóm các thẻ inline khác nhau (span) -->
     <!-- định dạng lại code để dễ nhìn : Shift + Alt + F -->
-    <div>
+    <!-- <div>
         <span>
             <a href="">Home</a>
             <a href="">Login</a>
@@ -44,15 +44,58 @@
             <a href="">Logout</a>
         </span>
 
-    </div>
+    </div> -->
     <span>Học HTML</span> <progress max="1000" value="100"></progress> <br>
     <span>Học CSS</span> <progress max="1000" value="200"></progress><br>
     <span>Học JAVASCRIPT</span> <progress max="1000" value="500"></progress><br>
     <!-- thẻ phát nhạc(audio) -->
-    <audio src="audio/nhactre.mp3" controls autoplay loop muted></audio>
+    <!-- <audio src="audio/nhactre.mp3" controls autoplay loop muted></audio> -->
     <!-- thẻ phát video  -->
-    <video src="video/video.mkv" controls width="1000" height="500"></video>
+    <!-- <video src="video/video.mkv" controls width="1000" height="500"></video> -->
 
+    <!--  bảng dữ liệu (table) -->
+    <table border="1" cellpadding="20" cellspacing="0">
+        <caption align="top">Bảng học sinh</caption>
+        <thead>
+            <tr>
+                <th>Stt</th>
+                <th>Tên</th>
+                <th>Giới tính</th>
+                <th>Tuổi</th>
+                <th>Địa chỉ</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">1</td>
+                <td>Hùng</td>
+                <td>ô 3</td>
+                <td>ô 4</td>
+                <td>ô 5</td>
+            </tr>
+            <tr>
+
+                <td rowspan="2">Nam</td>
+                <td colspan="4">gộp 3 ô</td>
+
+            </tr>
+            <tr>
+                <td>3</td>
+
+                <td>ô 3</td>
+                <td>ô 4</td>
+                <td>ô 5</td>
+            </tr>
+
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Footer</td>
+                <td></td>
+                <td colspan="3"></td>
+            </tr>
+        </tfoot>
+    </table>
 </body>
 
 </html>
