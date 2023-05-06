@@ -96,6 +96,45 @@
             </tr>
         </tfoot>
     </table>
+
+    <!-- Biểu mẫu (Form) , dùng để gửi dữ liệu lên server -->
+    <!-- 3 định danh : id , class , name -->
+    <!-- type of input: text/ password/date/color/radio/checkbox/email/submit/hidden/ button -->
+    <form action="demo.html" method="get" enctype="multipart/form-data">
+        <div>
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" placeholder="nhập gì đó vào đây">
+        </div>
+        <div>
+            <label for="password">password</label>
+            <input type="text" id="password" name="password">
+        </div>
+        <div>
+            <label for="color">Color</label>
+            <input type="color" name="" id="color" name="color">
+        </div>
+        <div>
+            <label for="checkbox">checkbox</label>
+            <input type="checkbox" name="" id="checkbox" name="check">
+        </div>
+        <div>
+            <label for="sex">sex</label>
+            <input type="radio" name="sex" id="nam" value="1"> <label for="nam">Nam</label>
+            <input type="radio" name="sex" id="nu" value="0"> <label for="nu">Nữ</label>
+        </div>
+        <input type="image" src="image/Sea.jpg">
+        <br>
+        <input type="file" multiple>
+        <br>
+        <input type="range" name="" id="" max="100" min="75" value="1">
+        <select name="address" id="">
+            <option value="1">Hà nội</option>
+            <option value="2">Đà Nẵng</option>
+            <option value="3">HCM</option>
+        </select>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <button type="submit">Gửi</button>
+    </form>
 </body>
 
 </html>
